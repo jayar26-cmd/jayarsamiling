@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-65N74ZS6XX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-65N74ZS6XX');
+  </script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jayar Samiling | Portfolio</title>
+  
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="./style.css">
+  
+  <link rel="icon" href="./res/globeicon.png" type="image/icon type">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;900&display=swap" rel="stylesheet">
+  
+  <!-- jQuery Library -->
+  <script
+    src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+    crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Canvas for Interactive Cursor Particles -->
+  <canvas id="cursor-canvas"></canvas>
+
+  <nav>
+    <div class="navcontainer">
+      <div class="rightnav">
+        <img src="./res/globeicon.png" alt="Globe Icon" class="navbar-icons">
+        <div class="rightnav-logo-text">
+          <a href="#">Jayar</a>
+          <p>Student Developer</p>
+        </div>
+      </div>
+      <div class="leftnav">
+        <a href="#mainIntro">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Portfolio</a>
+        <a href="#skills">Skills</a>
+        <a href="#chat">
+          <img src="./res/messageme.png" alt="Message Me" class="navbar-icons">
+        </a>
+      </div>
+      <div id="menu-icon">
+        <img src="./res/menu.png" id="menu-icon-img" class="menu-icon-img-class" alt="menu icon">
+        <img src="./res/cross.png" id="menu-close-icon" class="menu-close-icon-disabled" alt="menu close icon">
+        <div class="sub-menu" id="sub-menu-id">
+          <ul>
+            <li><a href="#mainIntro">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Portfolio</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#chat">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="mainIntro" id="mainIntro">
+    <div class="layer1">
+      <h3><span id="first-name">Jayar</span><span id="will-disappear"> Samiling</span></h3>
+    </div>
+    <div class="layer2">
+      <h4>STUDENT DEVELOPER / ASPIRING IT PROFESSIONAL</h4>
+      <p>BS in Information Technology — Nueva Vizcaya State University</p>
+      <div class="status-badge pulse-animation">
+        <span>Status: Learning, Building & Experimenting</span> | <span>Open to Collaboration</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section class="heading reveal" id="about">
+    <h1>About Me</h1>
+  </section>
+
+  <section class="about-section reveal">
+    <p>
+      I’m Jayar Samiling, a student developer based in Bayombong, Nueva Vizcaya, Philippines. 
+      I am interested in technology, web development, system development, and interactive digital experiences. 
+      I enjoy experimenting with code, designing interfaces, and transforming ideas into functional and engaging applications.
+    </p>
+    <p>
+      For me, programming is more than writing code. It is about understanding a problem, creating a solution, and making that solution useful and enjoyable for people.
+    </p>
+    <blockquote class="philosophy">
+      “Good software is not only functional. It should also be intuitive, engaging, and enjoyable to use.”
+    </blockquote>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="heading reveal" id="projects">
+    <h1>Projects</h1>
+  </section>
+
+  <section class="portfolio">
+    <div class="portfolio-card tilt-card reveal">
+      <h2>CITE Event Management System</h2>
+      <a href="#" target="_blank"><img src="./res/card1.jpg" alt="CITE Event Management System"></a>
+      <p>
+        A web-based concept designed to simplify event registration, participant monitoring, event information, and administrative management.
+      </p>
+      <p class="tech-stack"><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+    </div>
+    <div class="portfolio-card tilt-card reveal">
+      <h2>Student Registration System</h2>
+      <a href="#" target="_blank"><img src="./res/card2.jpg" alt="Student Registration System"></a>
+      <p>
+        An academic system concept focused on organizing student information, improving registration processes, and minimizing duplicate or incorrect entries.
+      </p>
+      <p class="tech-stack"><strong>Tech:</strong> Java, MySQL</p>
+    </div>
+    <div class="portfolio-card tilt-card reveal">
+      <h2>Interactive Programmer Portfolio</h2>
+      <a href="#" target="_blank"><img src="./res/card3.jpg" alt="Interactive Programmer Portfolio"></a>
+      <p>
+        A personal portfolio designed to showcase programming skills, projects, interests, and development progress through an interactive interface.
+      </p>
+      <p class="tech-stack"><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+    </div>
+    <div class="portfolio-card tilt-card reveal">
+      <h2>Network Configuration Lab</h2>
+      <a href="#" target="_blank"><img src="./res/card4.jpg" alt="Network Configuration Lab"></a>
+      <p>
+        A hands-on networking project involving network configuration, IP addressing, DNS verification, connectivity testing, and troubleshooting.
+      </p>
+      <p class="tech-stack"><strong>Tech:</strong> Networking, Cisco</p>
+    </div>
+  </section>
+
+  <!-- Technical Skills Section -->
+  <section class="heading reveal" id="skills">
+    <h1>Technical Skills</h1>
+  </section>
+
+  <section class="reveal">
+    <div class="skills-container">
+      <div class="focused-skill">
+        <img src="./res/html5.png" height="80px" alt="HTML5 Logo">
+        <p>HTML (Advanced)</p>
+      </div>
+      <div class="focused-skill">
+        <img src="./res/css.png" height="80px" alt="CSS Logo">
+        <p>CSS (Intermediate)</p>
+      </div>
+      <div class="focused-skill">
+        <img src="./res/javascript.png" height="80px" alt="JavaScript Logo">
+        <p>JavaScript (Intermediate)</p>
+      </div>
+      <div class="focused-skill">
+        <img src="./res/javalogo.png" height="80px" alt="Java Logo">
+        <p>Java (Intermediate)</p>
+      </div>
+      <div class="focused-skill">
+        <p class="skill-text-icon">Py</p>
+        <p>Python (Intermediate)</p>
+      </div>
+      <div class="focused-skill">
+        <p class="skill-text-icon">SQL</p>
+        <p>SQL / Database (Intermediate)</p>
+      </div>
+      <div class="focused-skill">
+        <p class="skill-text-icon">Git</p>
+        <p>Git & GitHub (Intermediate)</p>
+      </div>
+      <div class="focused-skill">
+        <p class="skill-text-icon">Net</p>
+        <p>Networking (Intermediate)</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Stats Section -->
+  <section class="heading reveal">
+    <h1>At A Glance</h1>
+  </section>
+
+  <section class="stats-section reveal">
+    <div class="stats-container">
+      <div class="stat-box float-animation">
+        <h3>04</h3>
+        <p>Projects</p>
+      </div>
+      <div class="stat-box float-animation delay-1">
+        <h3>07+</h3>
+        <p>Technologies</p>
+      </div>
+      <div class="stat-box float-animation delay-2">
+        <h3>01+</h3>
+        <p>Year of Learning</p>
+      </div>
+      <div class="stat-box float-animation delay-3">
+        <h3>&infin;</h3>
+        <p>Ideas</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Chat Section -->
+  <section class="heading reveal" id="chat">
+    <h1>Contact & Connect</h1>
+  </section>
+
+  <section class="contact-info reveal">
+    <div class="contact-details">
+      <p><strong>Email:</strong> wilfredsamiling11@gmail.com</p>
+      <p><strong>GitHub:</strong> github.com/TBA</p>
+      <p><strong>LinkedIn:</strong> linkedin.com/in/TBA</p>
+      <p><strong>Facebook:</strong> facebook.com/Jayar Samiling</p>
+      <p><strong>Location:</strong> Bayombong, Nueva Vizcaya, Philippines</p>
+    </div>
+  </section>
+
+  <section class="contact-me-form reveal">
+    <iframe src="https://forms.gle/MPUZyv6zQtaCefCX7" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  </section>
+
+  <footer>
+    <p class="footer-text">
+      Developed with ❤️ by Jayar Samiling
+    </p>
+  </footer>
+
+  <!-- JS Script Reference -->
+  <script type="text/javascript" src="./index.js"></script>
+</body>
+</html>
